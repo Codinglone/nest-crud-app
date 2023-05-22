@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { UcrudModule } from './ucrud/ucrud.module';
+
 
 @Module({
-  imports: [UcrudModule],
+  imports: [],
   controllers: [AppController],
   providers: [AppService],
 })
